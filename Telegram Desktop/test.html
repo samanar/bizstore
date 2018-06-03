@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>فروشگاه اینترنتی بیز</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/heroic-features.css" rel="stylesheet">
+    <!-- <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css"> -->
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+	<script src="vendor/jquery/jquery.min.js"></script>
+
+  </head>
+
+  <body style="background-color: #dddddd;">
+
+<div class="modal-content json-modal-body" id="full-width" ng-controller="projectdetailsController" close="CloseModal()">
+<div class="modal-header modal-header-confirm">
+    <h4 class="modal-title ng-binding">
+        <span class="glyphicon glyphicon-indent-left"></span>{{modalOptions.headerText}}
+        <a title="Close"><i ng-click="CloseModal()" class="glyphicon glyphicon-remove icon-arrow-right pull-right"></i></a> 
+    </h4>
+</div>
+<div class="modal-body"> 
+     <pre class="Modal-pre" ng-bind-html="modalOptions.bodyText"></pre>
+</div>
+</div>
+
+</body>
+</html>
