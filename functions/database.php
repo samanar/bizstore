@@ -38,7 +38,19 @@ $store_table = Array(
 
 $color_product = array(
     'product_id' => 'int(15) unsigned',
-    'color' => 'string'
+    'color' => 'text'
+);
+
+$cart = Array(
+  'product_id' => 'int(15) unsigned not null' ,
+    'color' => 'varchar(255)',
+    'quantity' => 'int(11)'
+);
+
+
+$addresses = Array(
+  'location' => 'text not null',
+    'title' => 'varchar(255)'
 );
 
 // level 1 == superadministrator  level 2 == administrator level 3 == general level 4 == demo

@@ -66,12 +66,14 @@ include("./functions/database.php");
 // include("./functions/table_timestamps.php");
 // include("./functions/login_functions.php");
 
-if(! $db->tableExists('products'))
+if(! $db->tableExists('addresses'))
 {
 	createTable("users" , $users_table);
 	createTable("products" , $products_table);
 	createTable("store" , $store_table);
-
+	createTable("color_product" , $color_product);
+	createTable("cart" , $cart);
+	createTable("addresses" , $addresses);
 }
 ?>
 

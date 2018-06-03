@@ -40,3 +40,59 @@
 	width: 100%;
 	height: auto;
 }
+
+/*choosing address*/
+.address_container {
+    clear: both;
+    margin : 0 auto;
+    width: 72%;
+    height: 400px;
+    direction: rtl;
+    text-align: right;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-top : 50px;
+}
+
+.address_title {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom : 20px;
+    padding: 13px 0;
+    border-top: 1px solid #dee2e6;
+    border-bottom: 1px solid lightgray;
+}
+
+.address_choose_container {
+    width: 100%;
+    clear: both;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+.radio_input {
+    margin : 5px;
+    margin-top : 8px;
+    float : right;
+}
+
+.address_show_title {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-right: 10px;
+    padding : 2px;
+    height: auto;
+    float: right;
+}
+
+.address_show_location {
+    width: 80% !important;
+    /*margin : 0 auto;*/
+    margin-right: 30px;
+    padding: 10px;
+    clear:  both;
+    text-align: right;
+}
